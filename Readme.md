@@ -1,6 +1,6 @@
 ## Categories
 ## STRUCTS
-go-05-11-2022.go(20), S(20)
+instances-11-11-2022.go(526), go-05-11-2022.go(20), S(546)
 
 # Total 
-20
+546

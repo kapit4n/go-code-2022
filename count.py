@@ -16,7 +16,7 @@ def countLines(path):
     fReadme.write("S(" + str(count) + ")\n")
     return count
 
-next_goal = 200
+next_goal = 500
 
 total = 0
 fReadme.write("## Categories")
@@ -35,7 +35,7 @@ for f in os.listdir('./src'):
 if (total >= next_goal):
     print(total, "GOAL REACHED")
 else:
-    print(total, (next_goal - total), "FOR THE GOAL")
+    print("Total: ", total, " and ", (next_goal - total), "FOR THE GOAL")
 
 
 
